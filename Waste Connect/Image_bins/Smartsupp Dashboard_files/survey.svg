@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="683" height="536" viewBox="0 0 683 536">
+  <defs>
+    <clipPath id="clip-survey_2">
+      <rect width="683" height="536"/>
+    </clipPath>
+  </defs>
+  <g id="survey_2" data-name="survey – 2" clip-path="url(#clip-survey_2)">
+    <g id="Group_4609" data-name="Group 4609" transform="translate(-683 -89)">
+      <g id="browser-window" transform="translate(-378.946 -207)">
+        <rect id="Rectangle_1337" data-name="Rectangle 1337" width="303" height="236" rx="33" transform="translate(1254.946 445)" fill="#ecf4fd"/>
+        <path id="Rectangle_1379" data-name="Rectangle 1379" d="M33,0H270a33,33,0,0,1,33,33v2a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V33A33,33,0,0,1,33,0Z" transform="translate(1254.946 445)" fill="#ecf4fd"/>
+      </g>
+      <g id="Group_4607" data-name="Group 4607" transform="translate(0 8)">
+        <g id="row1">
+          <rect id="Rectangle_2705" data-name="Rectangle 2705" width="184" height="29" rx="6" transform="translate(936 335)" fill="#d9e5f2"/>
+          <rect id="checkbox" width="17" height="17" rx="4" transform="translate(942 341)" fill="#ecf4fd"/>
+        </g>
+        <g id="row_3" data-name="row 3" transform="translate(0 4)">
+          <rect id="row" width="184" height="29" rx="6" transform="translate(936 403)" fill="#d9e5f2"/>
+          <rect id="checkbox-2" data-name="checkbox" width="17" height="17" rx="4" transform="translate(942 409)" fill="#ecf4fd"/>
+        </g>
+        <g id="row_2" data-name="row 2">
+          <rect id="row-2" data-name="row" width="184" height="29" rx="6" transform="translate(936 371)" fill="#d9e5f2"/>
+          <g id="checkmark">
+            <line id="Line_338" data-name="Line 338" x2="4.47" y2="3.576" transform="translate(945.355 386.666)" fill="none" stroke="#ecf4fd" stroke-linecap="round" stroke-width="5"/>
+            <path id="Path_3165" data-name="Path 3165" d="M6.819-2.609,0,6.876" transform="translate(949.826 383.366)" fill="#fff" stroke="#ecf4fd" stroke-linecap="round" stroke-width="5"/>
+          </g>
+          <rect id="checkbox-3" data-name="checkbox" width="3" height="3" rx="1.5" transform="translate(949 384)" fill="#ecf4fd" opacity="0"/>
+        </g>
+        <g id="dropdown_menu" data-name="dropdown menu">
+          <rect id="row-3" data-name="row" width="254" height="38" rx="6" transform="translate(901 282)" fill="#d9e5f2"/>
+          <g id="arrow-down" transform="translate(1128.402 297.701)">
+            <path id="Path_3166" data-name="Path 3166" d="M0,0,6.045,6.045" transform="translate(-0.447 0.299)" fill="none" stroke="#ecf4fd" stroke-linecap="round" stroke-width="5"/>
+            <line id="Line_340" data-name="Line 340" x1="6" y2="6" transform="translate(5.598 0.344)" fill="none" stroke="#ecf4fd" stroke-linecap="round" stroke-width="5"/>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g id="header">
+      <path id="header-2" data-name="header" d="M33,0H270a33,33,0,0,1,33,33v2a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V33A33,33,0,0,1,33,0Z" transform="translate(193 149)" fill="#d9e5f2"/>
+      <circle id="dot" cx="6" cy="6" r="6" transform="translate(466 162)" fill="#ecf4fd"/>
+      <circle id="dot-2" data-name="dot" cx="6" cy="6" r="6" transform="translate(451 162)" fill="#ecf4fd"/>
+      <circle id="dot-3" data-name="dot" cx="6" cy="6" r="6" transform="translate(436 162)" fill="#ecf4fd"/>
+    </g>
+  </g>
+</svg>

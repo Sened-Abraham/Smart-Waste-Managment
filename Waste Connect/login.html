@@ -1,0 +1,80 @@
+<html>
+<head>
+   <title>login/signup</title>
+    <link rel="icon" href="image/website_logo.jpeg" type="image/x-icon" size="16*16">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link href="Mycss.css" rel="stylesheet" type="text/css">
+    <script src="json_info.js" type="text/jscript"></script>
+    
+</head>
+<body>
+    
+<!-------------------------------------------------Navigator--------------------------------------------------------------------------------->
+    
+    <nav style="background-color: #009933" class="navbar navbar-expand-sm navbar-dark">
+  <!-- Brand/logo -->
+  <a class="navbar-brand" href="index.html">
+    <img src="image/website_logo.jpeg"  alt="logo" style="width:60px;"> </a> <p style="position: relative; left:4%"> <span style="font-size:48px; color: black; " >W</span > <span style="font-size:48px; color: white;">aste</span><span style="font-size:48px; color: black;" > C</span > <span style="font-size:48px; color: white;">onnect</span></p>
+ 
+  
+  <!-- Links -->
+   
+</nav>
+<nav style="background-color: #336600;" class="navbar navbar-expand-sm navbar-dark">
+
+<ul class="navbar-nav">
+    <li class="nav-item ">
+      <a class="nav-link" href="index.html">Home</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="Usage.html"> Benefits</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="Locations.html">Locations</a>
+    </li>
+     <li class="nav-item">
+      <a class="nav-link" href="products.html">Products</a>
+    </li>
+     <li class="nav-item">
+      <a class="nav-link" href="feedback.html">Feedback</a>
+    </li>
+    <li class="nav-item active" style="position:relative;left:150%">
+      <a class="nav-link" href="login.html">Login/Signup</a>
+    </li>
+    
+  </ul></nav>
+
+      
+    <!----------------------------------------------------------------------login------------------------------------------------------>
+    <div class="container">
+  <form>
+        <div class="form-group">
+      <label for="username">Full Name:</label>
+      <input  type="text" class="form-control" id="username"  placeholder="Enter username" required>
+      <div class="valid-feedback">Good Job</div>
+      <div class="invalid-feedback">Please fill out the username</div>
+
+</div>
+        <div class="form-group">
+     <label for="password">Password</label>
+     <input type="password" class="form-control" id="password" placeholder="Password" required>
+     <div class="valid-feedback">Great!</div>
+     <div id= "password-feedback" class="invalid-feedback">Please fill out the password!</div>
+</div>
+
+      <button onclick="validate();" type="submit" class="submit">Submit</button>
+      
+        
+       </form> 
+        <p>If you dont have an account please click the Okay button after validating your username.</p>
+      <a href="contact.html"><button type="submit" class="submit">Okay</button></a> 
+    </div>
+    </body>
+
+
+</html>

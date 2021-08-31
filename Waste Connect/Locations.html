@@ -1,0 +1,93 @@
+<html>
+
+<head>
+    <title> Locations</title>
+    
+    <link rel="icon" href="image/website_logo.jpeg" type="image/x-icon" size="16*16">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+   integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+   crossorigin=""/>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ==" crossorigin=""/>
+        <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js" integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew==" crossorigin=""></script>
+    <link href="Mycss.css" rel="stylesheet" type="text/css">
+
+    <script src="map_script.js"     type="text/javascript"></script>
+
+
+</head>
+          
+<body>
+    
+<!-------------------------------------------------Navigator--------------------------------------------------------------------------------->
+    
+    <nav style="background-color: #009933" class="navbar navbar-expand-sm navbar-dark">
+  <!-- Brand/logo -->
+  <a class="navbar-brand" href="index.html">
+    <img src="image/website_logo.jpeg"  alt="logo" style="width:60px;"> </a> <p style="position: relative; left:4%"> <span style="font-size:48px; color: black; " >W</span > <span style="font-size:48px; color: white;">aste</span><span style="font-size:48px; color: black;" > C</span > <span style="font-size:48px; color: white;">onnect</span></p>
+ 
+  
+  <!-- Links -->
+
+
+<form class="form-inline my-2 my-lg-0 search1">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-light my-2 my-sm-0" type="submit" style="background-color: aliceblue; color:black;padding: 8px; position: relative; top: -5px;">Search</button>
+    </form>
+</nav>
+
+<nav style="background-color: #336600;" class="navbar navbar-expand-sm navbar-dark">
+
+<ul class="navbar-nav">
+    
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+      <li class="breadcrumb-item"><a href="Usage.html">Benefits</a></li>
+      <li class="breadcrumb-item active " aria-current="page">Locations</li>
+
+  </ol>
+</nav>
+    
+     <li class="nav-item">
+      <a class="nav-link" href="products.html">Products</a>
+    </li>
+     <li class="nav-item">
+      <a class="nav-link" href="feedback.html">Feedback</a>
+    </li>
+    <li class="nav-item" style="position:relative;left:170%">
+      <a class="nav-link" href="login.html">Login/Signup</a>
+    </li>
+  </ul></nav>
+    
+    <!------------------------------------------------------------------------------------------------------------------------->
+     <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <h4>Here are the places in Abu Dhabi where you can find the Smartt Bins:</h4>
+        <div id="map" style="width: 700px; height: 600px;border: 1 solid green"></div>
+                </div>
+         </div>
+    </div>
+<br>
+    <br>
+    <h4 style="color:darkred; font-weight: bold;"> Please Be Informed, before you travel anywhere, Check The Weather Below For Your Safety:</h4>
+   <a class="weatherwidget-io" href="https://forecast7.com/en/24d4554d38/abu-dhabi/" data-label_1="ABU DHABI" data-label_2="WEATHER" data-theme="original" >ABU DHABI WEATHER</a>
+    
+<script>
+!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
+</script>
+         
+                
+                </body>  
+
+
+
+
+</html>

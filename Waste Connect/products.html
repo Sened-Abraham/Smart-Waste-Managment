@@ -1,0 +1,113 @@
+<html>
+
+<head>
+    <title> Products</title>
+    
+    <link rel="icon" href="image/website_logo.jpeg" type="image/x-icon" size="16*16">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    
+
+    <link href="Mycss.css" rel="stylesheet" type="text/css">
+    <script src="script.js"></script>
+        <script src="scriptjs.js"></script>
+</head>
+<body onload="show_products();">
+    
+<!-------------------------------------------------Navigator--------------------------------------------------------------------------------->
+    
+    <nav style="background-color: #009933" class="navbar navbar-expand-sm navbar-dark">
+  <!-- Brand/logo -->
+  <a class="navbar-brand" href="index.html">
+    <img src="image/website_logo.jpeg"  alt="logo" style="width:60px;"> </a> <p style="position: relative; left:4%"> <span style="font-size:48px; color: black; " >W</span > <span style="font-size:48px; color: white;">aste</span><span style="font-size:48px; color: black;" > C</span > <span style="font-size:48px; color: white;">onnect</span></p>
+ 
+  <!-- Links -->
+
+
+<form class="form-inline my-2 my-lg-0 search1">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-light my-2 my-sm-0" type="submit" style="background-color: aliceblue; color:black;padding: 8px; position: relative; top: -5px;">Search</button>
+    </form>
+        
+</nav>
+
+<nav style="background-color: #336600;" class="navbar navbar-expand-sm navbar-dark">
+
+<ul class="navbar-nav">
+    
+<nav style="background-color: #336600;" class="navbar navbar-expand-sm navbar-dark">
+
+<ul class="navbar-nav">
+    
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+      <li class="breadcrumb-item"><a href="Usage.html">Benefits</a></li>
+      <li class="breadcrumb-item"><a href="Locations.html">Locations</a></li>
+      <li class="breadcrumb-item active " aria-current="page">Products</li>
+
+  </ol>
+</nav>
+    
+     <li class="nav-item">
+      <a class="nav-link" href="feedback.html">Feedback</a>
+    </li>
+    <li class="nav-item" style="position:relative;left:150%">
+      <a class="nav-link" href="login.html">Login/Signup</a>
+    </li>
+  </ul></nav>
+    </ul>
+    </nav>
+    
+    
+<!----------------------------------------------------------------------------------------------------------------------------------->
+    
+    <div class="container">
+          <h2 style="color:black;font-weight: bold; text-decoration-line: underline;">The Most Sold Smart Bins</h2>
+            <div class="row">
+                
+                <div class="col-sm-12">
+                    
+<form onsubmit="return false;" class="form-inline" style="border: 1px solid white">
+                <input class="form-control" id="search-text" type="text">
+                    <button onclick="search_products();" class="btn btn-primary" style="background-color: cadetblue;">Search</button>
+                    </form>
+                </div>       
+                
+                
+        <table class="table">
+  <thead>
+      <br>
+      <br>
+    <tr class="json">
+      <th scope="col">#</th>
+      <th scope="col">Products</th>
+      <th scope="col">Type</th>
+        <th scope="col">Price</th>
+      <th scope="col">File Name</th>
+    </tr>
+  </thead>
+  <tbody id="product-table-data">
+
+  </tbody>
+</table>
+                
+                    <br>
+                    <br>
+                </div>
+    </div>
+    </body>
+</html>
+    
+<!----------------------------------------------------------------------------------------------------------------------------------------->  
+    
+    
+  
