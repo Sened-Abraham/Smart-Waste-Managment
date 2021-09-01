@@ -1,0 +1,32 @@
+# Python program that display the first N prime numbers, when user enters N numbers.
+intial_primeNo=2
+#Function to check if a number is prime or not
+def IsPrimeNo(initial_primeNo):
+    divisor = 2
+    while divisor <= initial_primeNo:
+        if initial_primeNo == 2:
+            return True
+        elif initial_primeNo % divisor == 0:
+            return False
+            break
+        while initial_primeNo % divisor != 0:
+            if initial_primeNo - divisor > 1:
+                divisor += 1
+            else:
+                return True
+#The actual function that desplays the first N numbers.
+def prime(n):
+    count = 0
+    initial_primeNo = 2
+    while count < int(NumOfprimes):
+        if IsPrimeNo(initial_primeNo) == True:
+            print("Prime number " + str(count + 1), "is", initial_primeNo)
+            count += 1
+            initial_primeNo += 1
+        else:
+            initial_primeNo += 1
+    return "End of Program"
+#User entrs numbers.
+NumOfprimes = int(input("How many prime numbers do you want to excute?"))
+#Calling the function.
+print(prime(NumOfprimes))
